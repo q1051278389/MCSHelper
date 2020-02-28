@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Thermos-1.7.10-1614-57-server">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/Thermos-1.7.10-1614-57-server.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

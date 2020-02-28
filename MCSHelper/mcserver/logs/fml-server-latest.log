@@ -1,0 +1,87 @@
+[11:38:38] [main/INFO] [FML/]: Forge Mod Loader version 7.99.4.1614 for Minecraft 1.7.10 loading
+[11:38:39] [main/INFO] [FML/]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_241, running on Windows 8.1:amd64:6.3, installed at C:\Program Files\Java\jre1.8.0_241
+[11:38:39] [main/INFO] [STDERR/]: [pw.prok.imagine.ImagineLoadingPlugin:<clinit>:26]: Loading plugin initialized!
+[11:38:39] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[11:38:39] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[11:38:39] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[11:38:39] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[11:38:39] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[11:38:40] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[11:38:40] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[11:38:40] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[11:38:41] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[11:38:41] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[11:38:41] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[11:38:47] [Server thread/INFO] [MinecraftForge/]: Attempting early MinecraftForge initialization
+[11:38:47] [Server thread/INFO] [FML/]: MinecraftForge v10.13.4.1614 Initialized
+[11:38:48] [Server thread/INFO] [FML/]: Replaced 184 ore recipies
+[11:38:48] [Server thread/INFO] [MinecraftForge/]: Completed early MinecraftForge initialization
+[11:38:48] [Server thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
+[11:38:48] [Server thread/INFO] [FML/]: Searching C:\Users\Xmsoft\IdeaProjects\MCSHelper\mcserver\mods for mods
+[11:38:50] [Server thread/INFO] [FML/]: Forge Mod Loader has identified 4 mods to load
+[11:38:50] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, kimagine] at CLIENT
+[11:38:50] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, kimagine] at SERVER
+[11:38:50] [Server thread/INFO] [FML/]: Processing ObjectHolder annotations
+[11:38:50] [Server thread/INFO] [FML/]: Found 341 ObjectHolder annotations
+[11:38:50] [Server thread/INFO] [FML/]: Identifying ItemStackHolder annotations
+[11:38:50] [Server thread/INFO] [FML/]: Found 0 ItemStackHolder annotations
+[11:38:50] [Server thread/INFO] [FML/Forge]: Configured a dormant chunk cache size of 0
+[11:38:50] [Server thread/INFO] [FML/]: Applying holder lookups
+[11:38:50] [Server thread/INFO] [FML/]: Holder lookups applied
+[11:38:50] [Server thread/INFO] [FML/]: Injecting itemstacks
+[11:38:50] [Server thread/INFO] [FML/]: Itemstack injection complete
+[11:38:51] [Server thread/INFO] [Minecraft/]: This server is running Cauldron version 1.7.10-1614.57 (MC: 1.7.10) (Implementing API version 1.7.10-R0.1-SNAPSHOT)
+[11:38:51] [Server thread/INFO] [/]: Server Ping Player Sample Count: 12
+[11:38:51] [Server thread/INFO] [Minecraft/]: Using 8 threads for Netty based IO
+[11:38:51] [Server thread/INFO] [FML/]: Injecting itemstacks
+[11:38:51] [Server thread/INFO] [FML/]: Itemstack injection complete
+[11:38:52] [Server thread/INFO] [FML/]: Forge Mod Loader has successfully loaded 4 mods
+[11:38:52] [Server thread/INFO] [FML/]: Injecting existing block and item data into this server instance
+[11:38:52] [Server thread/INFO] [FML/]: Applying holder lookups
+[11:38:52] [Server thread/INFO] [FML/]: Holder lookups applied
+[11:38:53] [Server thread/INFO] [/]: Mapping loaded 11 packages, 7841 classes, 26711 fields, 53884 methods, flags 1ffa
+[11:38:53] [Server thread/INFO] [/]: Loaded inheritance map of 895 classes
+[11:38:53] [Server thread/INFO] [cn.tohsaka.factory.MCSHelper.MCSHelper/]: [MCSHelper] Loading MCSHelper v0.1
+[11:38:53] [Server thread/INFO] [cn.tohsaka.factory.MCSHelper.MCSHelper/]: [MCSHelper] MCSHelper is loadad.
+[11:38:53] [Server thread/INFO] [FML/]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@709ffdf)
+[11:38:53] [Server thread/INFO] [FML/]: Loading dimension 1 (DIM1) (net.minecraft.server.dedicated.DedicatedServer@709ffdf)
+[11:38:54] [Server thread/INFO] [FML/]: Loading dimension -1 (DIM-1) (net.minecraft.server.dedicated.DedicatedServer@709ffdf)
+[11:38:55] [Server thread/INFO] [cn.tohsaka.factory.MCSHelper.MCSHelper/]: [MCSHelper] Enabling MCSHelper v0.1
+[11:38:55] [Server thread/INFO] [cn.tohsaka.factory.MCSHelper.MCSHelper/]: [MCSHelper] MCSHelper is started.
+[11:38:55] [Server thread/INFO] [MCSHelper/]: [MCSHelper] ¼àÌý¶Ë¿Ú:8089
+[11:38:56] [Server thread/INFO] [Minecraft/]: Server permissions file permissions.yml is empty, ignoring it
+[11:38:56] [Server thread/INFO] [/]: Hey, you don't have a server icon! Try out one of Thermos' Icon Generators at https://github.com/CyberdyneCC/ThermosIconGenerators !
+[11:38:59] [Thermos version retriever/WARN] [Thermos: TVersionRetriever/]: Error occured during retriving version
+java.lang.Throwable
+	at thermos.TLog.log(TLog.java:30) [TLog.class:1.7.10-1614.57]
+	at thermos.TLog.warning(TLog.java:41) [TLog.class:1.7.10-1614.57]
+	at thermos.updater.TVersionRetriever.uncaughtException(TVersionRetriever.java:111) [TVersionRetriever.class:1.7.10-1614.57]
+	at thermos.updater.TVersionRetriever.check(TVersionRetriever.java:105) [TVersionRetriever.class:1.7.10-1614.57]
+	at thermos.updater.TVersionRetriever.run(TVersionRetriever.java:69) [TVersionRetriever.class:1.7.10-1614.57]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_241]
+Caused by: org.json.simple.parser.ParseException
+	at org.json.simple.parser.Yylex.yylex(Unknown Source) ~[Yylex.class:?]
+	at org.json.simple.parser.JSONParser.nextToken(Unknown Source) ~[JSONParser.class:?]
+	at org.json.simple.parser.JSONParser.parse(Unknown Source) ~[JSONParser.class:?]
+	at org.json.simple.parser.JSONParser.parse(Unknown Source) ~[JSONParser.class:?]
+	at thermos.updater.TVersionRetriever.check(TVersionRetriever.java:95) ~[TVersionRetriever.class:1.7.10-1614.57]
+	... 2 more
+[11:41:24] [Netty IO #2/INFO] [FML/]: Client protocol version 2
+[11:41:24] [Netty IO #2/INFO] [FML/]: Client attempting to join with 5 mods : InputFix@1.7.10-v5,FML@7.10.99.99,xenobyte@1.0.7,Forge@10.13.4.1614,mcp@9.05
+[11:41:24] [Netty IO #2/INFO] [FML/]: Attempting connection with missing mods [kimagine] at CLIENT
+[11:41:24] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[11:49:01] [Thermos version retriever/WARN] [Thermos: TVersionRetriever/]: Error occured during retriving version
+java.lang.Throwable
+	at thermos.TLog.log(TLog.java:30) [TLog.class:1.7.10-1614.57]
+	at thermos.TLog.warning(TLog.java:41) [TLog.class:1.7.10-1614.57]
+	at thermos.updater.TVersionRetriever.uncaughtException(TVersionRetriever.java:111) [TVersionRetriever.class:1.7.10-1614.57]
+	at thermos.updater.TVersionRetriever.check(TVersionRetriever.java:105) [TVersionRetriever.class:1.7.10-1614.57]
+	at thermos.updater.TVersionRetriever.run(TVersionRetriever.java:69) [TVersionRetriever.class:1.7.10-1614.57]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_241]
+Caused by: org.json.simple.parser.ParseException
+	at org.json.simple.parser.Yylex.yylex(Unknown Source) ~[Yylex.class:?]
+	at org.json.simple.parser.JSONParser.nextToken(Unknown Source) ~[JSONParser.class:?]
+	at org.json.simple.parser.JSONParser.parse(Unknown Source) ~[JSONParser.class:?]
+	at org.json.simple.parser.JSONParser.parse(Unknown Source) ~[JSONParser.class:?]
+	at thermos.updater.TVersionRetriever.check(TVersionRetriever.java:95) ~[TVersionRetriever.class:1.7.10-1614.57]
+	... 2 more

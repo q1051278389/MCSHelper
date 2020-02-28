@@ -1,0 +1,92 @@
+# This is the main configuration file for Entities aka Sushchestvos (in Russian).
+# 
+# If you need help with the configuration or have any questions related to Thermos,
+# join us at the IRC or drop by our forums and leave a post.
+# 
+# IRC: #cauldron @ irc.esper.net ( http://webchat.esper.net/?channel=cauldron )
+# Forums: http://cauldron.minecraftforge.net/
+# 
+# Setting: settings.skip-entity-ticks Default: true   # If enabled, allows the default entity tick skip feature when no players are near.
+# Setting: settings.prevent-invalid-entity-updates Default: true   # Used to determine if an entity should tick and if not the TE is added to a ban list. Note: This should help improve performance.
+# Setting: debug.enable-ent-can-update-warning Default: false   # Set true to detect which entities should not be ticking.
+
+settings:
+  skip-entity-ticks: true
+  prevent-invalid-entity-updates: true
+debug:
+  enable-ent-can-update-warning: false
+config-version: 1
+world-settings:
+  default:
+    net-minecraft-entity-passive-EntityCow:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-passive-EntitySheep:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-passive-EntityPig:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-passive-EntityChicken:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-item-EntityItem:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-monster-EntityZombie:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-monster-EntityCreeper:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-monster-EntitySpider:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-monster-EntitySkeleton:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-passive-EntitySquid:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-passive-EntityHorse:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-player-EntityPlayerMP:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-passive-EntityBat:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-monster-EntityWitch:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-monster-EntityEnderman:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-monster-EntitySlime:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-passive-EntityWolf:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-item-EntityFallingBlock:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1

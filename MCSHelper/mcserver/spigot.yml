@@ -1,0 +1,101 @@
+# This is the main configuration file for Spigot.
+# As you can see, there's tons to configure. Some options may impact gameplay, so use
+# with caution, and make sure you know what each option does before configuring.
+# For a reference for any variable inside this file, check out the Spigot wiki at
+# http://www.spigotmc.org/wiki/spigot-configuration/
+# 
+# If you need help with the configuration or have any questions related to Spigot,
+# join us at the IRC or drop by our forums and leave a post.
+# 
+# IRC: #spigot @ irc.esper.net ( http://webchat.esper.net/?channel=spigot )
+# Forums: http://www.spigotmc.org/forum/
+
+config-version: 7
+messages:
+  whitelist: You are not whitelisted on this server!
+  unknown-command: Unknown command. Type "/help" for help.
+  server-full: The server is full!
+  outdated-client: Outdated client! Please use {}
+  outdated-server: Outdated server! I'm still on {}
+  restart: Server is restarting
+commands:
+  tab-complete: true
+  log: true
+stats:
+  disable-saving: false
+  forced-stats: {}
+settings:
+  late-bind: false
+  sample-count: 12
+  netty-threads: -1
+  fullMatchRate: 10
+  timeout-time: 90
+  restart-on-crash: true
+  restart-script: ./start.sh
+  bungeecord: false
+  player-shuffle: 0
+world-settings:
+  default:
+    verbose: false
+    merge-radius:
+      item: 2.5
+      exp: 3.0
+    item-despawn-rate: 6000
+    arrow-despawn-rate: 1200
+    max-entity-collisions: 8
+    chunks-per-tick: 650
+    clear-tick-list: false
+    view-distance: 10
+    use-async-lighting: true
+    enable-zombie-pigmen-portal-spawns: true
+    zombie-aggressive-towards-villager: true
+    entity-tracking-range:
+      players: 48
+      animals: 48
+      monsters: 48
+      misc: 32
+      other: 64
+    save-structure-info: true
+    mob-spawn-range: 4
+    growth:
+      cactus-modifier: 100
+      cane-modifier: 100
+      melon-modifier: 100
+      mushroom-modifier: 100
+      pumpkin-modifier: 100
+      sapling-modifier: 100
+      wheat-modifier: 100
+    random-light-updates: false
+    nerf-spawner-mobs: false
+    ticks-per:
+      hopper-transfer: 8
+      hopper-check: 8
+    anti-xray:
+      enabled: true
+      engine-mode: 1
+      hide-blocks:
+      - 14
+      - 15
+      - 16
+      - 21
+      - 48
+      - 49
+      - 54
+      - 56
+      - 73
+      - 74
+      - 82
+      - 129
+      - 130
+      replace-blocks:
+      - 1
+      - 5
+    entity-activation-range:
+      animals: 32
+      monsters: 32
+      misc: 16
+    max-tnt-per-tick: 100
+    max-tick-time:
+      tile: 1000
+      entity: 1000
+    max-bulk-chunks: 5

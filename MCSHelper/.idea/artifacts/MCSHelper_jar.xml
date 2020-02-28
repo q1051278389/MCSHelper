@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MCSHelper:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MCSHelper_jar</output-path>
+    <root id="archive" name="MCSHelper.jar">
+      <element id="module-output" name="MCSHelper" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kotlin-stdlib.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kotlin-reflect.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kotlin-test.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kotlin-stdlib-jdk7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/kotlin-stdlib-jdk8.jar" path-in-jar="/" />
+      <element id="file-copy" path="$PROJECT_DIR$/assets/plugin.yml" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/webbitserver/webbit/0.4.15/webbit-0.4.15.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/netty/netty/3.5.5.Final/netty-3.5.5.Final.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
