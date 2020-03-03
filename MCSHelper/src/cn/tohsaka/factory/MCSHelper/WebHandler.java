@@ -29,7 +29,7 @@ public class WebHandler implements HttpHandler {
         try {
             httpResponse.content("please use websocket").end();
         }catch (Exception e){
-
+            MCSHelper.restart();
         }
     }
     /*@Override
