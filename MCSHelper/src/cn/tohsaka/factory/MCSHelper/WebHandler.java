@@ -25,8 +25,12 @@ public class WebHandler implements HttpHandler {
     }
 
     @Override
-    public void handleHttpRequest(HttpRequest httpRequest, HttpResponse httpResponse, HttpControl httpControl) throws Exception {
-        httpResponse.content("please use websocket").end();
+    public void handleHttpRequest(HttpRequest httpRequest, HttpResponse httpResponse, HttpControl httpControl) {
+        try {
+            httpResponse.content("please use websocket").end();
+        }catch (Exception e){
+
+        }
     }
     /*@Override
     public void handleHttpRequest(HttpRequest req, HttpResponse res, HttpControl rec) throws Exception {

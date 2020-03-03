@@ -62,9 +62,13 @@ public final class MCSHelper extends JavaPlugin implements Listener {
         getLogger().info("MCSHelper is started.");
         this.getServer().getPluginManager().registerEvents(this, this);
         instance = this;
-        webServer = WebServers.createWebServer(Integer.valueOf(port));
-        Logger.getLogger("MCSHelper").info("[MCSHelper] 监听端口:"+port);
-        webServer.add("/ws",new wsHandler(this.getServer())).add(new WebHandler(this.getServer())).start();
+        try{
+            webServer = WebServers.createWebServer(Integer.valueOf(port));
+            Logger.getLogger("MCSHelper").info("[MCSHelper] 监听端口:"+port);
+            webServer.add("/ws",new wsHandler(this.getServer())).add(new WebHandler(this.getServer())).start();
+        }catch (Exception e){
+
+        }
     }
 
     @Override
