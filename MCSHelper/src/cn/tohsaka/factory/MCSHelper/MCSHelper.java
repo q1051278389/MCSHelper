@@ -18,9 +18,10 @@ public final class MCSHelper extends JavaPlugin implements Listener {
         getLogger().info("MCSHelper is loadad.");
     }
     public static double tps = 0;
+    public static String port = "";
     @Override
     public void onEnable() {
-        String port = new MCSUtils().readFile("./plugins/MCSHelper/config.dat");
+        port = new MCSUtils().readFile("./plugins/MCSHelper/config.dat");
         if(port==""){
             new MCSUtils().writeFile("./plugins/MCSHelper/config.dat","8088");
             port="8088";
@@ -70,7 +71,17 @@ public final class MCSHelper extends JavaPlugin implements Listener {
 
         }
     }
+    public static void restart(){
+        try{
+            webServer.stop();
+            webServer = WebServers.createWebServer(Integer.valueOf(port));
+            Logger.getLogger("MCSHelper").info("[MCSHelper] 监听端口:"+port);
+            webServer.add("/ws",new wsHandler(Bukkit.getServer())).add(new WebHandler(Bukkit.getServer())).start();
 
+        }catch(Exception e){
+            e.printStackTrace();
+        }
+    }
     @Override
     public void onDisable() {
         getLogger().info("MCSHelper is disabled.");
